@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.signin {
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inner-div{
+       height:42vh;
+       /* width:20vw; */
+       outline:none;
+       border: none;
+       background-color:white;
+       border-radius: 4px;
+       box-sizing: border-box;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+}
+.signin-logo{
+    height:100px;
+}
+#submit-btn2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0%;
+    width: 65%;
+    height:10%;
+    border: none;
+    background-color: #1773EA;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
